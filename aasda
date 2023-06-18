@@ -1,0 +1,17 @@
+<!-- mobile menü  -->
+<div id="mobileMenu" class="hidden h-full">
+  <ul>
+    <li>menu1</li>
+    <li>menu1</li>
+    <li>menu1</li>
+  </ul>
+</div>
+<script>
+  var menuOpen = document.getElementById("menuOpen");
+  var mobileMenu = document.getElementById("mobileMenu");
+  menuOpen.addEventListener("click", function () {
+    mobileMenu.classList.toggle("hidden");
+    sectwo.classList.toggle("hidden");
+    secone.classList.toggle("hidden");
+  });
+</script>
